@@ -16,6 +16,9 @@
             <uri>model://urc_aruco_1/meshes/urc_aruco_1.dae</uri>
           </mesh>
         </geometry>
+        <material>
+          <lighting>false</lighting>
+        </material>
       </visual>
     </link>
   </model>
