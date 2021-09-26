@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>urc_2022_aruco_markers</name>
+  <version>0.0.0</version>
+  <description>The urc_2022_aruco_makers package</description>
+
+  <maintainer email="jeremie.bourque@usherbrooke.ca">Jeremie Bourque</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>gazebo_ros</depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+
+</package>
